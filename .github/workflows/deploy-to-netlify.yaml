@@ -1,7 +1,7 @@
 name: Deploy Portfolio to Netlify
 
 on:
-  push:
+  workflow_dispatch:
     branches:
       - master # Change this if your default branch is not 'main'
 
